@@ -98,7 +98,7 @@ static void task6()
 
     Console.Write("n: ");
     int n = Convert.ToInt32(Console.ReadLine());
-
+// !!! if m =-1  or n=-1
     double result = ((n + 1) / (n * n + m * m + 1)) - (1 / ((m + 1) * (n + 1)));
     
     Console.WriteLine(result);
